@@ -17,7 +17,7 @@ jobs:
       - name: "Установка зависимости"
         run: python -m pip install -r requirements.txt
       - name: "Запуск тестов с alluredir"
-        run: python -m pytest api_project/tests --alluredir=allure-results
+        run: python -m pytest avto-testing/api_project/test --alluredir=allure-results
       - name: "Сохранение Allure-результатов"
         uses: actions/upload-artifact@v4
         with:

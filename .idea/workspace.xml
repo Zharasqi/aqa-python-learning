@@ -1,35 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="629dd733-3394-4013-8629-f8ec3c3c436c" name="Changes" comment="" />
+    <list default="true" id="629dd733-3394-4013-8629-f8ec3c3c436c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lesson_AQA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lesson_AQA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/booking.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lesson_5_OOP/Lesson_1_OOP.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3El94OfbXP47VsiK2sxcL5bOlX8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.test_math_utils.test_math_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_math_utils.test_multiply.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Lesson_7_requests.test_task_1_get.test_get_invalid_post.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Lesson_7_requests.test_task_1_get.test_post_without_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Lesson_7_requests.test_task_2_list.test_list_validate.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Pytest_lesson.test_dict.test_user_has_required_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Pytest_lesson.test_parametrize.test_is_adult.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test.test_booking.test_create_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.test_posts.test_fabric_paylaod.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.test_posts.test_factory_finally_check (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.test_posts.test_factory_finally_check.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for tests.test_posts.test_get_first_post.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.test_posts.test_update_put_post.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for validation_pydantic.lesson_3_test_data.test_booking_invalid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for validation_pydantic.lesson_3_test_data.test_booking_valid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for validation_pydantic.test_task_3_copy.test_user_copy_with_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in lesson_3_test_data.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_another.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_api_response.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_dict.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_field_optionals.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_first.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_fixture.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_nested_model_1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_nested_model_2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_parametrize.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_parametrize_2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_posts.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_pydantic_3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_1_get.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_1_pydantic.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_2_json.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_2_list.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_3_copy.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_3_post.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_4_configdict.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_4_update_post.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_5_query_param.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_task_mod_fields.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson_1_OOP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson_1_ООП.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson_6_update.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson_logging.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson_logging_raise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.final_lesson_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_01_pathlib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_1_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_2_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_2_valid_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_4_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_5_delete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_7_mistake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.posts_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practic_pathlib_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pytest.ini.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strftime_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_1_pydantic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_stepik.executor&quot;: &quot;Run&quot;,
+    &quot;Python.work.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zharas/Desktop/lesson_AQA/Lesson_5_OOP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lesson_5_OOP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/avto-testing/" />
+      <recent name="$PROJECT_DIR$/validation_pydantic" />
+      <recent name="$PROJECT_DIR$/clients" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for tests.test_posts.test_get_first_post">
+    <configuration name="pytest for tests.test_posts.test_fabric_paylaod" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lesson_AQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avto-testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_posts.test_fabric_paylaod&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_posts.test_factory_finally_check" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lesson_AQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avto-testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_posts.test_factory_finally_check&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_posts.test_factory_finally_check" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lesson_AQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avto-testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_posts.test_factory_finally_check&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_posts.test_get_first_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lesson_AQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avto-testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_posts.test_get_first_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_posts.test_update_put_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lesson_AQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avto-testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_posts.test_update_put_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for tests.test_posts.test_get_first_post" />
+        <item itemvalue="Python tests.pytest for tests.test_posts.test_factory_finally_check (1)" />
+        <item itemvalue="Python tests.pytest for tests.test_posts.test_factory_finally_check" />
+        <item itemvalue="Python tests.pytest for tests.test_posts.test_fabric_paylaod" />
+        <item itemvalue="Python tests.pytest for tests.test_posts.test_update_put_post" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,8 +255,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780742096239</updated>
-      <workItem from="1780742097243" duration="10000" />
+      <workItem from="1780742097243" duration="25942000" />
+      <workItem from="1781337410178" duration="13895000" />
+      <workItem from="1782230312104" duration="1269000" />
+      <workItem from="1782626995504" duration="718000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesson_6_validation_pydantic/lesson_2_valid_json.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lesson_AQA$main.coverage" NAME="main Coverage Results" MODIFIED="1780742147622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_AQA$pytest_for_test_test_booking_test_create_booking.coverage" NAME="pytest for test.test_booking.test_create_booking Coverage Results" MODIFIED="1781028416025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_AQA$.coverage" NAME=" Coverage Results" MODIFIED="1780761972136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_AQA$test_stepik.coverage" NAME="test_stepik Coverage Results" MODIFIED="1780754579832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

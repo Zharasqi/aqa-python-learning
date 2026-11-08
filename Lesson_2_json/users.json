@@ -1,0 +1,6 @@
+{
+    "id": 2,
+    "name": "Miras",
+    "age": 28,
+    "skills": ["Python", "Pytest"]
+}

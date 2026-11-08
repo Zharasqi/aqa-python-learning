@@ -1,0 +1,15 @@
+2026-09-13 16:56:53,058 - INFO - Возраст корректный: 25 - __main__
+2026-09-13 16:56:53,058 - ERROR - Некорректный возраст: -5 - __main__
+Traceback (most recent call last):
+  File "/Users/zharas/Desktop/lesson_AQA/Lesson_4_logging/Lesson_logging_raise.py", line 20, in <module>
+    validate_age(i)
+  File "/Users/zharas/Desktop/lesson_AQA/Lesson_4_logging/Lesson_logging_raise.py", line 13, in validate_age
+    raise ValueError("Age must be between 0 and 120")
+ValueError: Age must be between 0 and 120
+2026-09-13 16:56:53,061 - ERROR - Некорректный возраст: 150 - __main__
+Traceback (most recent call last):
+  File "/Users/zharas/Desktop/lesson_AQA/Lesson_4_logging/Lesson_logging_raise.py", line 20, in <module>
+    validate_age(i)
+  File "/Users/zharas/Desktop/lesson_AQA/Lesson_4_logging/Lesson_logging_raise.py", line 13, in validate_age
+    raise ValueError("Age must be between 0 and 120")
+ValueError: Age must be between 0 and 120
