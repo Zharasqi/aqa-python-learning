@@ -1,0 +1,2 @@
+[32mINFO    [0m api_project.clients.posts_client:posts_client.py:6 GET https://jsonplaceholder.typicode.com/posts/1
+[31m[1mERROR   [0m api_project.clients.posts_client:posts_client.py:12 GET https://jsonplaceholder.typicode.com/posts/1 timeout

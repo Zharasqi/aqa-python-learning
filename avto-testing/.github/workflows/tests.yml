@@ -1,0 +1,25 @@
+name: first-avto-test
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Получить код"
+        uses: actions/checkout@v4
+      - name: "Установить Python"
+        uses: actions/setup-python@v5
+        with:
+            python-version: "3.12"
+      - name: "Установка зависимости"
+        run: python -m pip install -r requirements.txt
+      - name: "Запуск тестов с alluredir"
+        run: python -m pytest api_project/tests --alluredir=allure-results
+      - name: "Сохранение Allure-результатов"
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
