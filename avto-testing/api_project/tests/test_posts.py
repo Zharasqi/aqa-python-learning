@@ -9,8 +9,6 @@ from api_project.clients.posts_client import update_post
 from api_project.clients.posts_client import delete_post
 from api_project.clients.posts_client import update_post_put
 from api_project.factories.post_factory import make_post_payload
-from clients import posts_client
-
 
 @allure.feature("Posts API")
 @allure.story("Получение поста")
