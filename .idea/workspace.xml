@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="629dd733-3394-4013-8629-f8ec3c3c436c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avto-testing/api_project/tests/test_posts.py" beforeDir="false" afterPath="$PROJECT_DIR$/avto-testing/api_project/tests/test_posts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,7 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for tests.test_posts.test_get_first_post">
+  <component name="RunManager" selected="Python tests.pytest for tests.test_posts.test_get_post_timeout">
     <configuration name="pytest for tests.test_posts.test_fabric_paylaod" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lesson_AQA" />
       <option name="ENV_FILES" value="" />
@@ -210,7 +210,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_posts.test_update_put_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_posts.test_get_post_timeout" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lesson_AQA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,17 +225,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_posts.test_update_put_post&quot;" />
+      <option name="_new_target" value="&quot;tests.test_posts.test_get_post_timeout&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for tests.test_posts.test_get_post_timeout" />
         <item itemvalue="Python tests.pytest for tests.test_posts.test_get_first_post" />
         <item itemvalue="Python tests.pytest for tests.test_posts.test_factory_finally_check (1)" />
         <item itemvalue="Python tests.pytest for tests.test_posts.test_factory_finally_check" />
         <item itemvalue="Python tests.pytest for tests.test_posts.test_fabric_paylaod" />
-        <item itemvalue="Python tests.pytest for tests.test_posts.test_update_put_post" />
       </list>
     </recent_temporary>
   </component>

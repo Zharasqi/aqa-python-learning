@@ -1,6 +1,7 @@
 import allure
 import pytest
 import requests
+from unittest.mock import patch
 from api_project.models.post import Post
 from api_project.clients.posts_client import get_post
 from api_project.clients.posts_client import create_post
@@ -8,6 +9,8 @@ from api_project.clients.posts_client import update_post
 from api_project.clients.posts_client import delete_post
 from api_project.clients.posts_client import update_post_put
 from api_project.factories.post_factory import make_post_payload
+from clients import posts_client
+
 
 @allure.feature("Posts API")
 @allure.story("Получение поста")
@@ -83,13 +86,16 @@ def test_get_post_by_id(base_url, timeout, get_id):
 @allure.story("Получение поста")
 @allure.title("Проверка ожидаемой ошибки по таймауту")
 def test_get_post_timeout(base_url, timeout, post_id):
-    with allure.step("1 Шаг. Отправляется GET запрос с минимальным временем ожидания"):
-        with pytest.raises(requests.exceptions.Timeout) as exc_info:
-            get_post(base_url, 0.001, post_id)
-        allure.attach(
+    with allure.step("1 Шаг. Имитируется ошибка таймаута"):
+        with patch('api_project.clients.posts_client.requests.get') as mock_function:
+            mock_function.side_effect = requests.exceptions.Timeout
+            with pytest.raises(requests.exceptions.Timeout) as exc_info:
+                get_post(base_url, 0.001, post_id)
+            allure.attach(
                 str(exc_info.value),
                 name = "Ошибка таймаут",
                 attachment_type = allure.attachment_type.TEXT)
+
 def test_get_post_connection_error(timeout, post_id):
     with pytest.raises(requests.exceptions.ConnectionError):
         get_post("http://127.0.0.1:1", timeout, post_id)
