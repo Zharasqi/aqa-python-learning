@@ -94,9 +94,19 @@ def test_get_post_timeout(base_url, timeout, post_id):
                 name = "Ошибка таймаут",
                 attachment_type = allure.attachment_type.TEXT)
 
-def test_get_post_connection_error(timeout, post_id):
-    with pytest.raises(requests.exceptions.ConnectionError):
-        get_post("http://127.0.0.1:1", timeout, post_id)
+@allure.feature("Posts API")
+@allure.story("Получение поста")
+@allure.title("Проверка ожидаемой ошибки ConnectionError")
+def test_get_post_connection_error(base_url, timeout, post_id):
+    with allure.step("Шаг 1. Имитируется ошибка ConnectionError"):
+        with patch('api_project.clients.posts_client.requests.get') as mock_function:
+            mock_function.side_effect = requests.exceptions.ConnectionError
+            with pytest.raises(requests.exceptions.ConnectionError) as exc_info:
+                get_post(base_url, timeout, post_id)
+            allure.attach(
+            str(exc_info.value),
+            name = "Ошибка Connection Error",
+            attachment_type = allure.attachment_type.TEXT)
 
 def test_get_post_headers(base_url, timeout, post_id):
     headers = {"Accept": "application/json"}
